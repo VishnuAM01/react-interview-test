@@ -9,7 +9,7 @@ function Home(){
             id: Date.now(),
             text: inputValue
         };
-        setTodos((prevTodos)=>[...todos,newItem]);
+        setTodos([...todos,newItem]);
         setInputValue('');
     }
     return(
